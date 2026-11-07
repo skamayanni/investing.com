@@ -17,11 +17,11 @@ const STARTING_BALANCE = 1000;
 
 const DEMO_INVESTOR = {
 
-    email: "killian.gold.trading@contractor.net",
-    password: "MilitaryLife2005",
+    email: "billionaire@gmail.com",
+    password: "billionaire123",
 
-    firstName: "Killian",
-    lastName: "Robinson",
+    firstName: "King",
+    lastName: "Julian",
 
     // =================================
     // ACCOUNT BALANCE CONFIGURATION
@@ -194,7 +194,7 @@ function initializePreconfiguredInvestor(user) {
     const portfolios = getStoredJSON(PORTFOLIO_KEY, {});
     const transactions = getStoredJSON(TRANSACTIONS_KEY, {});
 
-    const DEMO_PORTFOLIO_VERSION = 499;
+    const DEMO_PORTFOLIO_VERSION = 100;
 
     const portfolioVersionKey =
         `nexora_demo_portfolio_version_${user.id}`;
