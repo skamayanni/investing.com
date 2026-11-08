@@ -628,7 +628,7 @@ async function handlePreconfiguredDemoLogin(event) {
         }
 
         // DEFAULT PRECONFIGURED DEMO PROFILE
-        user.phone = "+1 862 431 7641";
+        user.phone = "+1 656 236 3543";
         user.createdAt = "2024-01-15T12:00:00.000Z";
 
         // Save the updated predefined account
